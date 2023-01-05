@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMDr4fIA9c.woff2) format('woff2');
+  }
+
+body {
+    background-color: #E0C6F5;
+    font-family: 'Raleway';
+}
+
+h1 {
+    text-shadow: 2px 1px 1px rgb(120, 120, 120);
+}
+
+header {
+    text-shadow: rgb(64, 63, 63);
+    padding: 2px;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #F1F4CC;
+}
+#traco {
+    color: rgb(140, 0, 255) ;
+}
+
+p > a {
+    text-decoration:none;
+    color: rgb(140, 0, 255);
+}
+a:visited {
+    color: #b31a66;
+}
+
+aside {
+    background-color: white;
+    border: ridge;
+    text-align: center;
+}
+
+article {
+    padding: 20px;
+    text-align: center;
+    border: ridge;
+    background-color: white;
+}
+
+iframe {
+    max-width: 400px;
+}
+
+h3 {
+    background-color: #F5E2D3;
+    text-align: center;
+}
+
+.separar {
+    display: flex;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
